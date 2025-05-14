@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const regionCodeInput = document.getElementById('regionCode');
 
     // --- IMPORTANT: REPLACE 'YOUR_EBIRD_API_KEY' WITH YOUR ACTUAL API KEY ---
-    const ebirdApiKey = 'YOUR_EBIRD_API_KEY';
+    const ebirdApiKey = '4h06pnqorqit';
     // You can get an API key from https://ebird.org/api/keygen (requires an eBird account)
 
     async function fetchRecentSightings(regionCode) {
