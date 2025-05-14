@@ -1,1 +1,32 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBird Recent Sightings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Recent eBird Sightings</h1>
+        <p>Displaying recent observations from a specified region.</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <label for="regionCode">Enter Region Code (e.g., US-CA-085 for Santa Clara County, US-CA for California):</label>
+            <input type="text" id="regionCode" value="US-CA-085">
+            <button id="fetchButton">Fetch Sightings</button>
+        </div>
+        <div id="sightings-container">
+            <p>Loading sightings...</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Data sourced from <a href="https://ebird.org" target="_blank">eBird API</a> (Cornell Lab of Ornithology)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
